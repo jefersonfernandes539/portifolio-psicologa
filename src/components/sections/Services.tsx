@@ -1,17 +1,20 @@
 "use client";
 
-const servicos = [
+const services = [
   {
-    titulo: "Desenvolvimento Web",
-    descricao: "Criação de sites modernos, responsivos e otimizados.",
+    titulo: "Terapia Individual",
+    descricao:
+      "Sessões personalizadas para tratar ansiedade, depressão e outros desafios emocionais.",
   },
   {
-    titulo: "Aplicações Fullstack",
-    descricao: "Do backend ao frontend, soluções completas e escaláveis.",
+    titulo: "Terapia de Casal",
+    descricao:
+      "Apoio para melhorar a comunicação, resolver conflitos e fortalecer relacionamentos.",
   },
   {
-    titulo: "Integrações",
-    descricao: "Integração com APIs e sistemas externos de forma eficiente.",
+    titulo: "Orientação Psicológica",
+    descricao:
+      "Consultas para desenvolvimento pessoal, manejo do estresse e tomadas de decisão conscientes.",
   },
 ];
 
@@ -21,7 +24,7 @@ export default function Services() {
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-900 mb-12">Serviços</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {servicos.map((item, index) => (
+          {services.map((item, index) => (
             <div
               key={index}
               className="p-6 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition"

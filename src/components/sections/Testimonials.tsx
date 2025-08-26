@@ -8,7 +8,7 @@ const depoimentos = [
   },
   {
     nome: "João Santos",
-    texto: "Muito atencioso e competente, recomendo de olhos fechados.",
+    texto: "Muito atenciosa e competente, recomendo de olhos fechados.",
   },
   {
     nome: "Ana Costa",
